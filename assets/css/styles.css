@@ -1,4 +1,4 @@
-/*   
+/*
  * Template Name: Developer - Responsive Website Template for Developers
  * Version: 1.0
  * Author: 3rd Wave Media
@@ -8,9 +8,9 @@
 */
 /* ======= Base ======= */
 body {
-  font-family: 'Lato', arial, sans-serif;
-  color: #434343;
-  background: #dae3e7;
+  font-family: 'Nunito Sans', sans-serif;
+  color: #fff;
+  background: #000;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -26,7 +26,7 @@ h6 {
   color: #778492;
 }
 a {
-  color: #3aaa64;
+  color: #22ff00;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -57,8 +57,8 @@ a.btn:focus {
 }
 a.btn-cta-primary,
 .btn-cta-primary {
-  background: #54ba4e;
-  border: 1px solid #54ba4e;
+  background: #16460e;
+  border: 1px solid #22ff00;
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
@@ -71,8 +71,8 @@ a.btn-cta-primary:hover,
 }
 a.btn-cta-secondary,
 .btn-cta-secondary {
-  background: #479fc8;
-  border: 1px solid #479fc8;
+  background: #002dff;
+  border: 1px solid #002dff;
   color: #fff;
   font-weight: 600;
   text-transform: uppercase;
@@ -87,7 +87,7 @@ a.btn-cta-secondary:hover,
   color: #32383e;
 }
 .label-theme {
-  background: #3aaa64;
+  background: #3a3caa;
   font-size: 12px;
 }
 a.dotted-link {
@@ -114,8 +114,8 @@ iframe {
 /* ======= Header ======= */
 .header {
   padding: 30px 0;
-  background: #f5f5f5;
-  border-top: 10px solid #778492;
+  background: #181818;
+  border-top: 10px solid #00ff1d;
 }
 .header .btn {
   margin-top: 60px;
@@ -125,7 +125,7 @@ iframe {
   margin-right: 30px;
 }
 .header .profile-content .name {
-  color: #49515a;
+  color: #06ff23;
   font-size: 38px;
   margin-bottom: 5px;
   margin-top: 30px;
@@ -138,8 +138,13 @@ iframe {
   margin-top: 0;
   margin-bottom: 15px;
 }
+
+.django{
+  font-weight: bold;
+  color: #003dff;
+}
 .header .profile-content .social a {
-  background: #b0b7bf;
+  background: #003dff;
   width: 36px;
   height: 36px;
   display: inline-block;
@@ -170,7 +175,7 @@ iframe {
   margin-bottom: 30px;
 }
 .section .section-inner {
-  background: #fff;
+  background: #0f0f0f;
   padding: 30px;
 }
 .section .heading {
@@ -316,9 +321,9 @@ iframe {
   font-weight: normal;
 }
 /* Git section */
-.ghfeed {
+/* .ghfeed {
   height: 600px;
-}
+} */
 .ghfeed,
 .ghfeed *,
 .ghfeed *:before,
@@ -372,7 +377,7 @@ iframe {
 }
 .skills .skillset .level-bar-inner {
   height: 15px;
-  background: #66cb8c;
+  background: #00ff0d;
 }
 /* Testimonials section */
 .testimonials .item {
@@ -382,13 +387,13 @@ iframe {
   margin-bottom: 0;
 }
 .testimonials .item .quote {
-  color: #666666;
+  color: #22ff00;
   font-size: 16px;
-  border-left-color: #9fdeb7;
+  border-left-color: #22ff00;
   margin-bottom: 15px;
 }
 .testimonials .item .quote .fa {
-  color: #79d19a;
+  color: #22ff00;
   margin-right: 15px;
 }
 .testimonials .item .source {
@@ -439,7 +444,7 @@ iframe {
   margin-bottom: 0;
 }
 .languages .item .fa {
-  color: #79d19a;
+  color: #1aff00;
 }
 /* Blog Section */
 .blog .item {
